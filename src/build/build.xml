@@ -1,0 +1,46 @@
+<project name="AvailabilityMobile" basedir="../." default="deploy.local">
+ <!-- Load properties -->
+ <property file="build/build.properties"/>
+
+ <target name="deploy.local" description="Deploy to local webserver">  
+  <echo>Copying files to local webserver...</echo>
+  <mkdir dir="${deploy.dir.local}"/>
+  <copy todir="${deploy.dir.local}">
+   <fileset dir=".">
+    <include name="**/*" />
+   	<exclude name="**/settings.xml" />
+    <exclude name="build" />
+    <exclude name="build/*" />
+   	<exclude name="build/data/*" />
+   </fileset>
+  </copy>  
+ </target>
+ 
+ <target name="deploy.dev" description="Release to remote dev webserver">  
+  <echo>Copying files to dev server ${deploy.dir.dev}...</echo>
+	<mkdir dir="${deploy.dir.dev}"/>
+	<copy todir="${deploy.dir.dev}">
+	   <fileset dir=".">
+		<include name="**/*" />
+		<exclude name="**/settings.xml" />
+		<exclude name="build" />
+		<exclude name="build/*" />
+		<exclude name="build/data/*" />
+	   </fileset>
+	  </copy>
+ </target>
+ 
+ <target name="deploy.live" description="Release to remote webserver">  
+  <echo>Copying files to live server ${deploy.dir.live}...</echo>
+	<mkdir dir="${deploy.dir.live}"/>
+	<copy todir="${deploy.dir.live}">
+	   <fileset dir=".">
+		<include name="**/*" />
+		<exclude name="**/settings.xml" />
+		<exclude name="build" />
+		<exclude name="build/*" />
+		<exclude name="build/data/*" />
+	   </fileset>
+	  </copy>
+ </target> 
+</project>

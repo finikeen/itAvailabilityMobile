@@ -1,0 +1,558 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node', '/usr/local/bin/npm', 'install', '-g', 'phonegap' ]
+2 info using npm@1.4.3
+3 info using node@v0.10.26
+4 verbose cache add [ 'phonegap', null ]
+5 verbose cache add name=undefined spec="phonegap" args=["phonegap",null]
+6 verbose parsed url { protocol: null,
+6 verbose parsed url   slashes: null,
+6 verbose parsed url   auth: null,
+6 verbose parsed url   host: null,
+6 verbose parsed url   port: null,
+6 verbose parsed url   hostname: null,
+6 verbose parsed url   hash: null,
+6 verbose parsed url   search: null,
+6 verbose parsed url   query: null,
+6 verbose parsed url   pathname: 'phonegap',
+6 verbose parsed url   path: 'phonegap',
+6 verbose parsed url   href: 'phonegap' }
+7 silly lockFile 10db903f-phonegap phonegap
+8 verbose lock phonegap /Users/brian.cooney/.npm/10db903f-phonegap.lock
+9 silly lockFile 10db903f-phonegap phonegap
+10 silly lockFile 10db903f-phonegap phonegap
+11 verbose addNamed [ 'phonegap', '' ]
+12 verbose addNamed [ null, '*' ]
+13 silly lockFile 3a6257f3-phonegap phonegap@
+14 verbose lock phonegap@ /Users/brian.cooney/.npm/3a6257f3-phonegap.lock
+15 silly addNameRange { name: 'phonegap', range: '*', hasData: false }
+16 verbose url raw phonegap
+17 verbose url resolving [ 'https://registry.npmjs.org/', './phonegap' ]
+18 verbose url resolved https://registry.npmjs.org/phonegap
+19 info trying registry request attempt 1 at 09:31:54
+20 http GET https://registry.npmjs.org/phonegap
+21 http 200 https://registry.npmjs.org/phonegap
+22 silly registry.get cb [ 200,
+22 silly registry.get   { date: 'Wed, 26 Mar 2014 13:30:51 GMT',
+22 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R14B04)',
+22 silly registry.get     etag: '"5DDSXCL72FVYNUT4HGSW03VVG"',
+22 silly registry.get     'content-type': 'application/json',
+22 silly registry.get     'cache-control': 'max-age=1',
+22 silly registry.get     'content-length': '110121',
+22 silly registry.get     'accept-ranges': 'bytes',
+22 silly registry.get     via: '1.1 varnish',
+22 silly registry.get     age: '0',
+22 silly registry.get     'x-served-by': 'cache-v44-ASH',
+22 silly registry.get     'x-cache': 'MISS',
+22 silly registry.get     'x-cache-hits': '0',
+22 silly registry.get     'x-timer': 'S1395840650.972764015,VS0,VE29',
+22 silly registry.get     vary: 'Accept',
+22 silly registry.get     'keep-alive': 'timeout=10, max=50',
+22 silly registry.get     connection: 'Keep-Alive' } ]
+23 silly addNameRange number 2 { name: 'phonegap', range: '*', hasData: true }
+24 silly addNameRange versions [ 'phonegap',
+24 silly addNameRange   [ '0.2.0',
+24 silly addNameRange     '0.2.1',
+24 silly addNameRange     '0.2.2',
+24 silly addNameRange     '0.3.0',
+24 silly addNameRange     '0.4.0',
+24 silly addNameRange     '0.4.1',
+24 silly addNameRange     '0.5.0',
+24 silly addNameRange     '0.6.0',
+24 silly addNameRange     '0.6.1',
+24 silly addNameRange     '0.7.0',
+24 silly addNameRange     '0.7.1',
+24 silly addNameRange     '0.7.2',
+24 silly addNameRange     '0.7.3',
+24 silly addNameRange     '0.7.4',
+24 silly addNameRange     '0.7.5',
+24 silly addNameRange     '0.7.6',
+24 silly addNameRange     '0.7.7',
+24 silly addNameRange     '0.7.8',
+24 silly addNameRange     '0.8.0',
+24 silly addNameRange     '0.8.1',
+24 silly addNameRange     '0.9.0',
+24 silly addNameRange     '0.9.1',
+24 silly addNameRange     '0.9.2',
+24 silly addNameRange     '0.9.3',
+24 silly addNameRange     '0.9.4',
+24 silly addNameRange     '2.8.0-0.10.0',
+24 silly addNameRange     '2.8.0-0.10.1',
+24 silly addNameRange     '2.8.0-0.10.2',
+24 silly addNameRange     '2.8.0-0.10.3',
+24 silly addNameRange     '2.8.0-0.10.4',
+24 silly addNameRange     '2.8.0-0.10.6',
+24 silly addNameRange     '2.8.1-0.11.0',
+24 silly addNameRange     '2.9.0-0.12.2',
+24 silly addNameRange     '2.9.0-0.12.3',
+24 silly addNameRange     '2.9.0-0.12.4',
+24 silly addNameRange     '2.9.0-0.12.5',
+24 silly addNameRange     '2.9.0-0.12.6',
+24 silly addNameRange     '2.9.0-0.12.7',
+24 silly addNameRange     '2.9.0-0.12.8',
+24 silly addNameRange     '2.9.0-rc1-0.12.0',
+24 silly addNameRange     '2.9.0-rc1-0.12.1',
+24 silly addNameRange     '2.9.0-rc1-0.12.2',
+24 silly addNameRange     '2.9.0-0.12.9',
+24 silly addNameRange     '2.9.0-0.12.10',
+24 silly addNameRange     '2.9.0-0.12.11',
+24 silly addNameRange     '2.9.0-0.13.0',
+24 silly addNameRange     '2.9.0-0.13.1',
+24 silly addNameRange     '2.9.0-0.13.2',
+24 silly addNameRange     '3.0.0-rc1-0.13.2',
+24 silly addNameRange     '3.0.0-rc1-0.13.3',
+24 silly addNameRange     '3.0.0-0.14.0',
+24 silly addNameRange     '3.0.0-0.14.1',
+24 silly addNameRange     '3.0.0-0.14.2',
+24 silly addNameRange     '3.0.0-0.14.3',
+24 silly addNameRange     '3.0.0-0.14.4',
+24 silly addNameRange     '3.1.0-0.15.0',
+24 silly addNameRange     '3.2.0-0.15.0',
+24 silly addNameRange     '3.2.0-0.16.0',
+24 silly addNameRange     '3.2.0-0.17.0',
+24 silly addNameRange     '3.2.0-0.17.1',
+24 silly addNameRange     '3.3.0-0.17.1',
+24 silly addNameRange     '3.3.0-0.18.0',
+24 silly addNameRange     '3.3.0-0.18.1',
+24 silly addNameRange     '3.3.0-0.19.0',
+24 silly addNameRange     '3.3.0-0.19.1',
+24 silly addNameRange     '3.3.0-0.19.2',
+24 silly addNameRange     '3.3.0-0.19.3',
+24 silly addNameRange     '3.3.0-0.19.4',
+24 silly addNameRange     '3.3.0-0.19.5',
+24 silly addNameRange     '3.3.0-0.19.6',
+24 silly addNameRange     '3.4.0-0.19.7',
+24 silly addNameRange     '3.4.0-0.19.8' ] ]
+25 verbose addNamed [ 'phonegap', '3.4.0-0.19.8' ]
+26 verbose addNamed [ '3.4.0-0.19.8', '3.4.0-0.19.8' ]
+27 silly lockFile b8d894a3-phonegap-3-4-0-0-19-8 phonegap@3.4.0-0.19.8
+28 verbose lock phonegap@3.4.0-0.19.8 /Users/brian.cooney/.npm/b8d894a3-phonegap-3-4-0-0-19-8.lock
+29 silly lockFile bd17a8eb-onegap-phonegap-3-4-0-0-19-8-tgz https://registry.npmjs.org/phonegap/-/phonegap-3.4.0-0.19.8.tgz
+30 verbose lock https://registry.npmjs.org/phonegap/-/phonegap-3.4.0-0.19.8.tgz /Users/brian.cooney/.npm/bd17a8eb-onegap-phonegap-3-4-0-0-19-8-tgz.lock
+31 verbose addRemoteTarball [ 'https://registry.npmjs.org/phonegap/-/phonegap-3.4.0-0.19.8.tgz',
+31 verbose addRemoteTarball   'ba9dc7af04c30fba1126d3307da61eb2b4d8d448' ]
+32 info retry fetch attempt 1 at 09:31:55
+33 verbose fetch to= /var/folders/n7/sl0dpyhs4d72rgnfmqxt7x0h0000gp/T/npm-9896-_OgjdNUJ/1395840715664-0.2256410529371351/tmp.tgz
+34 http GET https://registry.npmjs.org/phonegap/-/phonegap-3.4.0-0.19.8.tgz
+35 http 200 https://registry.npmjs.org/phonegap/-/phonegap-3.4.0-0.19.8.tgz
+36 verbose tar unpack /var/folders/n7/sl0dpyhs4d72rgnfmqxt7x0h0000gp/T/npm-9896-_OgjdNUJ/1395840715664-0.2256410529371351/tmp.tgz
+37 silly lockFile 902b8f97-15664-0-2256410529371351-package tar:///var/folders/n7/sl0dpyhs4d72rgnfmqxt7x0h0000gp/T/npm-9896-_OgjdNUJ/1395840715664-0.2256410529371351/package
+38 verbose lock tar:///var/folders/n7/sl0dpyhs4d72rgnfmqxt7x0h0000gp/T/npm-9896-_OgjdNUJ/1395840715664-0.2256410529371351/package /Users/brian.cooney/.npm/902b8f97-15664-0-2256410529371351-package.lock
+39 silly lockFile 28fd5143-15664-0-2256410529371351-tmp-tgz tar:///var/folders/n7/sl0dpyhs4d72rgnfmqxt7x0h0000gp/T/npm-9896-_OgjdNUJ/1395840715664-0.2256410529371351/tmp.tgz
+40 verbose lock tar:///var/folders/n7/sl0dpyhs4d72rgnfmqxt7x0h0000gp/T/npm-9896-_OgjdNUJ/1395840715664-0.2256410529371351/tmp.tgz /Users/brian.cooney/.npm/28fd5143-15664-0-2256410529371351-tmp-tgz.lock
+41 silly gunzTarPerm modes [ '755', '644' ]
+42 silly gunzTarPerm extractEntry package.json
+43 silly gunzTarPerm extractEntry .npmignore
+44 silly gunzTarPerm extractEntry README.md
+45 silly gunzTarPerm extractEntry LICENSE
+46 silly gunzTarPerm extractEntry COPYRIGHT
+47 silly gunzTarPerm extractEntry NOTICE
+48 silly gunzTarPerm extractEntry .travis.yml
+49 silly gunzTarPerm extractEntry bin/phonegap.js
+50 silly gunzTarPerm extractEntry doc/cli/help.platform.txt
+51 silly gunzTarPerm extractEntry doc/cli/help.build.txt
+52 silly gunzTarPerm extractEntry doc/cli/help.install.txt
+53 silly gunzTarPerm extractEntry doc/cli/help.local.build.txt
+54 silly gunzTarPerm extractEntry doc/cli/help.local.install.txt
+55 silly gunzTarPerm extractEntry doc/cli/help.local.plugin.add.txt
+56 silly gunzTarPerm extractEntry doc/cli/help.local.plugin.list.txt
+57 silly gunzTarPerm extractEntry doc/cli/help.local.plugin.remove.txt
+58 silly gunzTarPerm extractEntry doc/cli/help.local.plugin.txt
+59 silly gunzTarPerm extractEntry doc/cli/help.local.run.txt
+60 silly gunzTarPerm extractEntry doc/cli/help.local.txt
+61 silly gunzTarPerm extractEntry doc/cli/help.create.txt
+62 silly gunzTarPerm extractEntry doc/cli/help.platform.update.txt
+63 silly gunzTarPerm extractEntry doc/cli/help.remote.build.txt
+64 silly gunzTarPerm extractEntry doc/cli/help.remote.install.txt
+65 silly gunzTarPerm extractEntry doc/cli/help.remote.login.txt
+66 silly gunzTarPerm extractEntry doc/cli/help.remote.logout.txt
+67 silly gunzTarPerm extractEntry doc/cli/help.remote.run.txt
+68 silly gunzTarPerm extractEntry doc/cli/help.remote.txt
+69 silly gunzTarPerm extractEntry doc/cli/help.run.txt
+70 silly gunzTarPerm extractEntry doc/cli/help.serve.txt
+71 silly gunzTarPerm extractEntry doc/cli/help.txt
+72 silly gunzTarPerm extractEntry lib/cli.js
+73 silly gunzTarPerm extractEntry lib/main.js
+74 silly gunzTarPerm extractEntry lib/phonegap.js
+75 silly gunzTarPerm extractEntry lib/cli/argv.js
+76 silly gunzTarPerm extractEntry lib/cli/local.plugin.remove.js
+77 silly gunzTarPerm extractEntry lib/cli/local.run.js
+78 silly gunzTarPerm extractEntry lib/cli/platform.js
+79 silly gunzTarPerm extractEntry lib/cli/local.plugin.list.js
+80 silly gunzTarPerm extractEntry lib/cli/build.js
+81 silly gunzTarPerm extractEntry lib/cli/plugin.js
+82 silly gunzTarPerm extractEntry lib/cli/plugin.list.js
+83 silly gunzTarPerm extractEntry lib/cli/plugin.remove.js
+84 silly gunzTarPerm extractEntry lib/cli/remote.build.js
+85 silly gunzTarPerm extractEntry lib/cli/local.plugin.js
+86 silly gunzTarPerm extractEntry lib/cli/remote.install.js
+87 silly gunzTarPerm extractEntry lib/cli/local.plugin.add.js
+88 silly gunzTarPerm extractEntry lib/cli/remote.js
+89 silly gunzTarPerm extractEntry lib/cli/local.js
+90 silly gunzTarPerm extractEntry lib/cli/remote.login.js
+91 silly gunzTarPerm extractEntry lib/cli/local.install.js
+92 silly gunzTarPerm extractEntry lib/cli/remote.logout.js
+93 silly gunzTarPerm extractEntry lib/cli/local.build.js
+94 silly gunzTarPerm extractEntry lib/cli/remote.run.js
+95 silly gunzTarPerm extractEntry lib/cli/install.js
+96 silly gunzTarPerm extractEntry lib/cli/run.js
+97 silly gunzTarPerm extractEntry lib/cli/help.js
+98 silly gunzTarPerm extractEntry lib/cli/serve.js
+99 silly gunzTarPerm extractEntry lib/cli/create.js
+100 silly gunzTarPerm extractEntry lib/cli/unknown.js
+101 silly gunzTarPerm extractEntry lib/cli/platform.update.js
+102 silly gunzTarPerm extractEntry lib/cli/version.js
+103 silly gunzTarPerm extractEntry lib/cli/plugin.add.js
+104 silly gunzTarPerm extractEntry lib/cli/util/console.js
+105 silly gunzTarPerm extractEntry lib/common/config.js
+106 silly gunzTarPerm extractEntry lib/common/config/global.js
+107 silly gunzTarPerm extractEntry lib/common/config/local.js
+108 silly gunzTarPerm extractEntry lib/phonegap/build.js
+109 silly gunzTarPerm extractEntry lib/phonegap/local.plugin.list.js
+110 silly gunzTarPerm extractEntry lib/phonegap/local.plugin.remove.js
+111 silly gunzTarPerm extractEntry lib/phonegap/local.run.js
+112 silly gunzTarPerm extractEntry lib/phonegap/local.plugin.add.js
+113 silly gunzTarPerm extractEntry lib/phonegap/create.js
+114 silly gunzTarPerm extractEntry lib/phonegap/remote.build.js
+115 silly gunzTarPerm extractEntry lib/phonegap/remote.install.js
+116 silly gunzTarPerm extractEntry lib/phonegap/remote.login.js
+117 silly gunzTarPerm extractEntry lib/phonegap/remote.logout.js
+118 silly gunzTarPerm extractEntry lib/phonegap/local.install.js
+119 silly gunzTarPerm extractEntry lib/phonegap/remote.run.js
+120 silly gunzTarPerm extractEntry lib/phonegap/local.build.js
+121 silly gunzTarPerm extractEntry lib/phonegap/run.js
+122 silly gunzTarPerm extractEntry lib/phonegap/install.js
+123 silly gunzTarPerm extractEntry lib/phonegap/serve.js
+124 silly gunzTarPerm extractEntry lib/phonegap/mode.js
+125 silly gunzTarPerm extractEntry lib/phonegap/version.js
+126 silly gunzTarPerm extractEntry lib/phonegap/platform.update.js
+127 silly gunzTarPerm extractEntry lib/phonegap/util/command.js
+128 silly gunzTarPerm extractEntry lib/phonegap/util/phonegap-build.js
+129 silly gunzTarPerm extractEntry lib/phonegap/util/platform.js
+130 silly gunzTarPerm extractEntry lib/phonegap/util/project.js
+131 silly gunzTarPerm extractEntry CONTRIBUTING.md
+132 silly gunzTarPerm extractEntry spec/cli.spec.js
+133 silly gunzTarPerm extractEntry spec/main.spec.js
+134 silly gunzTarPerm extractEntry spec/phonegap.spec.js
+135 silly gunzTarPerm extractEntry spec/cli/app.spec.js
+136 silly gunzTarPerm extractEntry spec/cli/local.run.spec.js
+137 silly gunzTarPerm extractEntry spec/cli/local.spec.js
+138 silly gunzTarPerm extractEntry spec/cli/platform.spec.js
+139 silly gunzTarPerm extractEntry spec/cli/platform.update.spec.js
+140 silly gunzTarPerm extractEntry spec/cli/local.plugin.spec.js
+141 silly gunzTarPerm extractEntry spec/cli/plugin.list.spec.js
+142 silly gunzTarPerm extractEntry spec/cli/plugin.remove.spec.js
+143 silly gunzTarPerm extractEntry spec/cli/plugin.spec.js
+144 silly gunzTarPerm extractEntry spec/cli/remote.build.spec.js
+145 silly gunzTarPerm extractEntry spec/cli/remote.install.spec.js
+146 silly gunzTarPerm extractEntry spec/cli/local.plugin.remove.spec.js
+147 silly gunzTarPerm extractEntry spec/cli/remote.login.spec.js
+148 silly gunzTarPerm extractEntry spec/cli/local.plugin.list.spec.js
+149 silly gunzTarPerm extractEntry spec/cli/remote.logout.spec.js
+150 silly gunzTarPerm extractEntry spec/cli/local.plugin.add.spec.js
+151 silly gunzTarPerm extractEntry spec/cli/remote.run.spec.js
+152 silly gunzTarPerm extractEntry spec/cli/local.install.spec.js
+153 silly gunzTarPerm extractEntry spec/cli/remote.spec.js
+154 silly gunzTarPerm extractEntry spec/cli/local.build.spec.js
+155 silly gunzTarPerm extractEntry spec/cli/run.spec.js
+156 silly gunzTarPerm extractEntry spec/cli/install.spec.js
+157 silly gunzTarPerm extractEntry spec/cli/serve.spec.js
+158 silly gunzTarPerm extractEntry spec/cli/help.spec.js
+159 silly gunzTarPerm extractEntry spec/cli/unknown.spec.js
+160 silly gunzTarPerm extractEntry spec/cli/create.spec.js
+161 silly gunzTarPerm extractEntry spec/cli/verbose.spec.js
+162 silly gunzTarPerm extractEntry spec/cli/build.spec.js
+163 silly gunzTarPerm extractEntry spec/cli/version.spec.js
+164 silly gunzTarPerm extractEntry spec/cli/plugin.add.spec.js
+165 silly gunzTarPerm extractEntry spec/common/config/global.spec.js
+166 silly gunzTarPerm extractEntry spec/common/config/local.spec.js
+167 silly gunzTarPerm extractEntry spec/phonegap/app.spec.js
+168 silly gunzTarPerm extractEntry spec/phonegap/local.plugin.remove.spec.js
+169 silly gunzTarPerm extractEntry spec/phonegap/local.run.spec.js
+170 silly gunzTarPerm extractEntry spec/phonegap/mode.spec.js
+171 silly gunzTarPerm extractEntry spec/phonegap/local.plugin.list.spec.js
+172 silly gunzTarPerm extractEntry spec/phonegap/build.spec.js
+173 silly gunzTarPerm extractEntry spec/phonegap/plugin.list.spec.js
+174 silly gunzTarPerm extractEntry spec/phonegap/plugin.remove.spec.js
+175 silly gunzTarPerm extractEntry spec/phonegap/remote.build.spec.js
+176 silly gunzTarPerm extractEntry spec/phonegap/remote.install.spec.js
+177 silly gunzTarPerm extractEntry spec/phonegap/local.plugin.add.spec.js
+178 silly gunzTarPerm extractEntry spec/phonegap/remote.login.spec.js
+179 silly gunzTarPerm extractEntry spec/phonegap/local.install.spec.js
+180 silly gunzTarPerm extractEntry spec/phonegap/remote.logout.spec.js
+181 silly gunzTarPerm extractEntry spec/phonegap/local.build.spec.js
+182 silly gunzTarPerm extractEntry spec/phonegap/remote.run.spec.js
+183 silly gunzTarPerm extractEntry spec/phonegap/install.spec.js
+184 silly gunzTarPerm extractEntry spec/phonegap/run.spec.js
+185 silly gunzTarPerm extractEntry spec/phonegap/create.spec.js
+186 silly gunzTarPerm extractEntry spec/phonegap/serve.spec.js
+187 silly gunzTarPerm extractEntry spec/phonegap/platform.update.spec.js
+188 silly gunzTarPerm extractEntry spec/phonegap/version.spec.js
+189 silly gunzTarPerm extractEntry spec/phonegap/plugin.add.spec.js
+190 silly gunzTarPerm extractEntry spec/phonegap/util/platform.spec.js
+191 silly gunzTarPerm extractEntry spec/phonegap/util/project.spec.js
+192 silly lockFile 902b8f97-15664-0-2256410529371351-package tar:///var/folders/n7/sl0dpyhs4d72rgnfmqxt7x0h0000gp/T/npm-9896-_OgjdNUJ/1395840715664-0.2256410529371351/package
+193 silly lockFile 902b8f97-15664-0-2256410529371351-package tar:///var/folders/n7/sl0dpyhs4d72rgnfmqxt7x0h0000gp/T/npm-9896-_OgjdNUJ/1395840715664-0.2256410529371351/package
+194 silly lockFile 28fd5143-15664-0-2256410529371351-tmp-tgz tar:///var/folders/n7/sl0dpyhs4d72rgnfmqxt7x0h0000gp/T/npm-9896-_OgjdNUJ/1395840715664-0.2256410529371351/tmp.tgz
+195 silly lockFile 28fd5143-15664-0-2256410529371351-tmp-tgz tar:///var/folders/n7/sl0dpyhs4d72rgnfmqxt7x0h0000gp/T/npm-9896-_OgjdNUJ/1395840715664-0.2256410529371351/tmp.tgz
+196 verbose tar pack [ '/Users/brian.cooney/.npm/phonegap/3.4.0-0.19.8/package.tgz',
+196 verbose tar pack   '/var/folders/n7/sl0dpyhs4d72rgnfmqxt7x0h0000gp/T/npm-9896-_OgjdNUJ/1395840715664-0.2256410529371351/package' ]
+197 verbose tarball /Users/brian.cooney/.npm/phonegap/3.4.0-0.19.8/package.tgz
+198 verbose folder /var/folders/n7/sl0dpyhs4d72rgnfmqxt7x0h0000gp/T/npm-9896-_OgjdNUJ/1395840715664-0.2256410529371351/package
+199 silly lockFile 902b8f97-15664-0-2256410529371351-package tar:///var/folders/n7/sl0dpyhs4d72rgnfmqxt7x0h0000gp/T/npm-9896-_OgjdNUJ/1395840715664-0.2256410529371351/package
+200 verbose lock tar:///var/folders/n7/sl0dpyhs4d72rgnfmqxt7x0h0000gp/T/npm-9896-_OgjdNUJ/1395840715664-0.2256410529371351/package /Users/brian.cooney/.npm/902b8f97-15664-0-2256410529371351-package.lock
+201 silly lockFile 48e47cc4-honegap-3-4-0-0-19-8-package-tgz tar:///Users/brian.cooney/.npm/phonegap/3.4.0-0.19.8/package.tgz
+202 verbose lock tar:///Users/brian.cooney/.npm/phonegap/3.4.0-0.19.8/package.tgz /Users/brian.cooney/.npm/48e47cc4-honegap-3-4-0-0-19-8-package-tgz.lock
+203 silly lockFile 902b8f97-15664-0-2256410529371351-package tar:///var/folders/n7/sl0dpyhs4d72rgnfmqxt7x0h0000gp/T/npm-9896-_OgjdNUJ/1395840715664-0.2256410529371351/package
+204 silly lockFile 902b8f97-15664-0-2256410529371351-package tar:///var/folders/n7/sl0dpyhs4d72rgnfmqxt7x0h0000gp/T/npm-9896-_OgjdNUJ/1395840715664-0.2256410529371351/package
+205 silly lockFile 48e47cc4-honegap-3-4-0-0-19-8-package-tgz tar:///Users/brian.cooney/.npm/phonegap/3.4.0-0.19.8/package.tgz
+206 silly lockFile 48e47cc4-honegap-3-4-0-0-19-8-package-tgz tar:///Users/brian.cooney/.npm/phonegap/3.4.0-0.19.8/package.tgz
+207 silly lockFile c2709bbd-pm-phonegap-3-4-0-0-19-8-package /Users/brian.cooney/.npm/phonegap/3.4.0-0.19.8/package
+208 verbose lock /Users/brian.cooney/.npm/phonegap/3.4.0-0.19.8/package /Users/brian.cooney/.npm/c2709bbd-pm-phonegap-3-4-0-0-19-8-package.lock
+209 silly lockFile c2709bbd-pm-phonegap-3-4-0-0-19-8-package /Users/brian.cooney/.npm/phonegap/3.4.0-0.19.8/package
+210 silly lockFile c2709bbd-pm-phonegap-3-4-0-0-19-8-package /Users/brian.cooney/.npm/phonegap/3.4.0-0.19.8/package
+211 verbose tar unpack /Users/brian.cooney/.npm/phonegap/3.4.0-0.19.8/package.tgz
+212 silly lockFile c646bf8c-pm-phonegap-3-4-0-0-19-8-package tar:///Users/brian.cooney/.npm/phonegap/3.4.0-0.19.8/package
+213 verbose lock tar:///Users/brian.cooney/.npm/phonegap/3.4.0-0.19.8/package /Users/brian.cooney/.npm/c646bf8c-pm-phonegap-3-4-0-0-19-8-package.lock
+214 silly lockFile 48e47cc4-honegap-3-4-0-0-19-8-package-tgz tar:///Users/brian.cooney/.npm/phonegap/3.4.0-0.19.8/package.tgz
+215 verbose lock tar:///Users/brian.cooney/.npm/phonegap/3.4.0-0.19.8/package.tgz /Users/brian.cooney/.npm/48e47cc4-honegap-3-4-0-0-19-8-package-tgz.lock
+216 silly gunzTarPerm modes [ '755', '644' ]
+217 silly gunzTarPerm extractEntry package.json
+218 silly gunzTarPerm extractEntry .npmignore
+219 silly gunzTarPerm extractEntry README.md
+220 silly gunzTarPerm extractEntry LICENSE
+221 silly gunzTarPerm extractEntry COPYRIGHT
+222 silly gunzTarPerm extractEntry NOTICE
+223 silly gunzTarPerm extractEntry .travis.yml
+224 silly gunzTarPerm extractEntry bin/phonegap.js
+225 silly gunzTarPerm extractEntry doc/cli/help.platform.txt
+226 silly gunzTarPerm extractEntry doc/cli/help.build.txt
+227 silly gunzTarPerm extractEntry doc/cli/help.install.txt
+228 silly gunzTarPerm extractEntry doc/cli/help.local.build.txt
+229 silly gunzTarPerm extractEntry doc/cli/help.local.install.txt
+230 silly gunzTarPerm extractEntry doc/cli/help.local.plugin.add.txt
+231 silly gunzTarPerm extractEntry doc/cli/help.local.plugin.list.txt
+232 silly gunzTarPerm extractEntry doc/cli/help.local.plugin.remove.txt
+233 silly gunzTarPerm extractEntry doc/cli/help.local.plugin.txt
+234 silly gunzTarPerm extractEntry doc/cli/help.local.run.txt
+235 silly gunzTarPerm extractEntry doc/cli/help.local.txt
+236 silly gunzTarPerm extractEntry doc/cli/help.create.txt
+237 silly gunzTarPerm extractEntry doc/cli/help.platform.update.txt
+238 silly gunzTarPerm extractEntry doc/cli/help.remote.build.txt
+239 silly gunzTarPerm extractEntry doc/cli/help.remote.install.txt
+240 silly gunzTarPerm extractEntry doc/cli/help.remote.login.txt
+241 silly gunzTarPerm extractEntry doc/cli/help.remote.logout.txt
+242 silly gunzTarPerm extractEntry doc/cli/help.remote.run.txt
+243 silly gunzTarPerm extractEntry doc/cli/help.remote.txt
+244 silly gunzTarPerm extractEntry doc/cli/help.run.txt
+245 silly gunzTarPerm extractEntry doc/cli/help.serve.txt
+246 silly gunzTarPerm extractEntry doc/cli/help.txt
+247 silly gunzTarPerm extractEntry lib/cli.js
+248 silly gunzTarPerm extractEntry lib/main.js
+249 silly gunzTarPerm extractEntry lib/phonegap.js
+250 silly gunzTarPerm extractEntry lib/cli/argv.js
+251 silly gunzTarPerm extractEntry lib/cli/local.plugin.remove.js
+252 silly gunzTarPerm extractEntry lib/cli/local.run.js
+253 silly gunzTarPerm extractEntry lib/cli/platform.js
+254 silly gunzTarPerm extractEntry lib/cli/local.plugin.list.js
+255 silly gunzTarPerm extractEntry lib/cli/build.js
+256 silly gunzTarPerm extractEntry lib/cli/plugin.js
+257 silly gunzTarPerm extractEntry lib/cli/plugin.list.js
+258 silly gunzTarPerm extractEntry lib/cli/plugin.remove.js
+259 silly gunzTarPerm extractEntry lib/cli/remote.build.js
+260 silly gunzTarPerm extractEntry lib/cli/local.plugin.js
+261 silly gunzTarPerm extractEntry lib/cli/remote.install.js
+262 silly gunzTarPerm extractEntry lib/cli/local.plugin.add.js
+263 silly gunzTarPerm extractEntry lib/cli/remote.js
+264 silly gunzTarPerm extractEntry lib/cli/local.js
+265 silly gunzTarPerm extractEntry lib/cli/remote.login.js
+266 silly gunzTarPerm extractEntry lib/cli/local.install.js
+267 silly gunzTarPerm extractEntry lib/cli/remote.logout.js
+268 silly gunzTarPerm extractEntry lib/cli/local.build.js
+269 silly gunzTarPerm extractEntry lib/cli/remote.run.js
+270 silly gunzTarPerm extractEntry lib/cli/install.js
+271 silly gunzTarPerm extractEntry lib/cli/run.js
+272 silly gunzTarPerm extractEntry lib/cli/help.js
+273 silly gunzTarPerm extractEntry lib/cli/serve.js
+274 silly gunzTarPerm extractEntry lib/cli/create.js
+275 silly gunzTarPerm extractEntry lib/cli/unknown.js
+276 silly gunzTarPerm extractEntry lib/cli/platform.update.js
+277 silly gunzTarPerm extractEntry lib/cli/version.js
+278 silly gunzTarPerm extractEntry lib/cli/plugin.add.js
+279 silly gunzTarPerm extractEntry lib/cli/util/console.js
+280 silly gunzTarPerm extractEntry lib/common/config.js
+281 silly gunzTarPerm extractEntry lib/common/config/global.js
+282 silly gunzTarPerm extractEntry lib/common/config/local.js
+283 silly gunzTarPerm extractEntry lib/phonegap/build.js
+284 silly gunzTarPerm extractEntry lib/phonegap/local.plugin.list.js
+285 silly gunzTarPerm extractEntry lib/phonegap/local.plugin.remove.js
+286 silly gunzTarPerm extractEntry lib/phonegap/local.run.js
+287 silly gunzTarPerm extractEntry lib/phonegap/local.plugin.add.js
+288 silly gunzTarPerm extractEntry lib/phonegap/create.js
+289 silly gunzTarPerm extractEntry lib/phonegap/remote.build.js
+290 silly gunzTarPerm extractEntry lib/phonegap/remote.install.js
+291 silly gunzTarPerm extractEntry lib/phonegap/remote.login.js
+292 silly gunzTarPerm extractEntry lib/phonegap/remote.logout.js
+293 silly gunzTarPerm extractEntry lib/phonegap/local.install.js
+294 silly gunzTarPerm extractEntry lib/phonegap/remote.run.js
+295 silly gunzTarPerm extractEntry lib/phonegap/local.build.js
+296 silly gunzTarPerm extractEntry lib/phonegap/run.js
+297 silly gunzTarPerm extractEntry lib/phonegap/install.js
+298 silly gunzTarPerm extractEntry lib/phonegap/serve.js
+299 silly gunzTarPerm extractEntry lib/phonegap/mode.js
+300 silly gunzTarPerm extractEntry lib/phonegap/version.js
+301 silly gunzTarPerm extractEntry lib/phonegap/platform.update.js
+302 silly gunzTarPerm extractEntry lib/phonegap/util/command.js
+303 silly gunzTarPerm extractEntry lib/phonegap/util/phonegap-build.js
+304 silly gunzTarPerm extractEntry lib/phonegap/util/platform.js
+305 silly gunzTarPerm extractEntry lib/phonegap/util/project.js
+306 silly gunzTarPerm extractEntry CONTRIBUTING.md
+307 silly gunzTarPerm extractEntry spec/cli.spec.js
+308 silly gunzTarPerm extractEntry spec/main.spec.js
+309 silly gunzTarPerm extractEntry spec/phonegap.spec.js
+310 silly gunzTarPerm extractEntry spec/cli/app.spec.js
+311 silly gunzTarPerm extractEntry spec/cli/local.run.spec.js
+312 silly gunzTarPerm extractEntry spec/cli/local.spec.js
+313 silly gunzTarPerm extractEntry spec/cli/platform.spec.js
+314 silly gunzTarPerm extractEntry spec/cli/platform.update.spec.js
+315 silly gunzTarPerm extractEntry spec/cli/local.plugin.spec.js
+316 silly gunzTarPerm extractEntry spec/cli/plugin.list.spec.js
+317 silly gunzTarPerm extractEntry spec/cli/plugin.remove.spec.js
+318 silly gunzTarPerm extractEntry spec/cli/plugin.spec.js
+319 silly gunzTarPerm extractEntry spec/cli/remote.build.spec.js
+320 silly gunzTarPerm extractEntry spec/cli/remote.install.spec.js
+321 silly gunzTarPerm extractEntry spec/cli/local.plugin.remove.spec.js
+322 silly gunzTarPerm extractEntry spec/cli/remote.login.spec.js
+323 silly gunzTarPerm extractEntry spec/cli/local.plugin.list.spec.js
+324 silly gunzTarPerm extractEntry spec/cli/remote.logout.spec.js
+325 silly gunzTarPerm extractEntry spec/cli/local.plugin.add.spec.js
+326 silly gunzTarPerm extractEntry spec/cli/remote.run.spec.js
+327 silly gunzTarPerm extractEntry spec/cli/local.install.spec.js
+328 silly gunzTarPerm extractEntry spec/cli/remote.spec.js
+329 silly gunzTarPerm extractEntry spec/cli/local.build.spec.js
+330 silly gunzTarPerm extractEntry spec/cli/run.spec.js
+331 silly gunzTarPerm extractEntry spec/cli/install.spec.js
+332 silly gunzTarPerm extractEntry spec/cli/serve.spec.js
+333 silly gunzTarPerm extractEntry spec/cli/help.spec.js
+334 silly gunzTarPerm extractEntry spec/cli/unknown.spec.js
+335 silly gunzTarPerm extractEntry spec/cli/create.spec.js
+336 silly gunzTarPerm extractEntry spec/cli/verbose.spec.js
+337 silly gunzTarPerm extractEntry spec/cli/build.spec.js
+338 silly gunzTarPerm extractEntry spec/cli/version.spec.js
+339 silly gunzTarPerm extractEntry spec/cli/plugin.add.spec.js
+340 silly gunzTarPerm extractEntry spec/common/config/global.spec.js
+341 silly gunzTarPerm extractEntry spec/common/config/local.spec.js
+342 silly gunzTarPerm extractEntry spec/phonegap/app.spec.js
+343 silly gunzTarPerm extractEntry spec/phonegap/local.plugin.remove.spec.js
+344 silly gunzTarPerm extractEntry spec/phonegap/local.run.spec.js
+345 silly gunzTarPerm extractEntry spec/phonegap/mode.spec.js
+346 silly gunzTarPerm extractEntry spec/phonegap/local.plugin.list.spec.js
+347 silly gunzTarPerm extractEntry spec/phonegap/build.spec.js
+348 silly gunzTarPerm extractEntry spec/phonegap/plugin.list.spec.js
+349 silly gunzTarPerm extractEntry spec/phonegap/plugin.remove.spec.js
+350 silly gunzTarPerm extractEntry spec/phonegap/remote.build.spec.js
+351 silly gunzTarPerm extractEntry spec/phonegap/remote.install.spec.js
+352 silly gunzTarPerm extractEntry spec/phonegap/local.plugin.add.spec.js
+353 silly gunzTarPerm extractEntry spec/phonegap/remote.login.spec.js
+354 silly gunzTarPerm extractEntry spec/phonegap/local.install.spec.js
+355 silly gunzTarPerm extractEntry spec/phonegap/remote.logout.spec.js
+356 silly gunzTarPerm extractEntry spec/phonegap/local.build.spec.js
+357 silly gunzTarPerm extractEntry spec/phonegap/remote.run.spec.js
+358 silly gunzTarPerm extractEntry spec/phonegap/install.spec.js
+359 silly gunzTarPerm extractEntry spec/phonegap/run.spec.js
+360 silly gunzTarPerm extractEntry spec/phonegap/create.spec.js
+361 silly gunzTarPerm extractEntry spec/phonegap/serve.spec.js
+362 silly gunzTarPerm extractEntry spec/phonegap/platform.update.spec.js
+363 silly gunzTarPerm extractEntry spec/phonegap/version.spec.js
+364 silly gunzTarPerm extractEntry spec/phonegap/plugin.add.spec.js
+365 silly gunzTarPerm extractEntry spec/phonegap/util/platform.spec.js
+366 silly gunzTarPerm extractEntry spec/phonegap/util/project.spec.js
+367 silly lockFile c646bf8c-pm-phonegap-3-4-0-0-19-8-package tar:///Users/brian.cooney/.npm/phonegap/3.4.0-0.19.8/package
+368 silly lockFile c646bf8c-pm-phonegap-3-4-0-0-19-8-package tar:///Users/brian.cooney/.npm/phonegap/3.4.0-0.19.8/package
+369 silly lockFile 48e47cc4-honegap-3-4-0-0-19-8-package-tgz tar:///Users/brian.cooney/.npm/phonegap/3.4.0-0.19.8/package.tgz
+370 silly lockFile 48e47cc4-honegap-3-4-0-0-19-8-package-tgz tar:///Users/brian.cooney/.npm/phonegap/3.4.0-0.19.8/package.tgz
+371 verbose chmod /Users/brian.cooney/.npm/phonegap/3.4.0-0.19.8/package.tgz 644
+372 verbose chown /Users/brian.cooney/.npm/phonegap/3.4.0-0.19.8/package.tgz [ 502, 20 ]
+373 silly lockFile bd17a8eb-onegap-phonegap-3-4-0-0-19-8-tgz https://registry.npmjs.org/phonegap/-/phonegap-3.4.0-0.19.8.tgz
+374 silly lockFile bd17a8eb-onegap-phonegap-3-4-0-0-19-8-tgz https://registry.npmjs.org/phonegap/-/phonegap-3.4.0-0.19.8.tgz
+375 silly lockFile b8d894a3-phonegap-3-4-0-0-19-8 phonegap@3.4.0-0.19.8
+376 silly lockFile b8d894a3-phonegap-3-4-0-0-19-8 phonegap@3.4.0-0.19.8
+377 silly lockFile 3a6257f3-phonegap phonegap@
+378 silly lockFile 3a6257f3-phonegap phonegap@
+379 silly resolved [ { name: 'phonegap',
+379 silly resolved     description: 'PhoneGap command-line interface and node.js library.',
+379 silly resolved     version: '3.4.0-0.19.8',
+379 silly resolved     homepage: 'http://github.com/phonegap/phonegap-cli',
+379 silly resolved     repository:
+379 silly resolved      { type: 'git',
+379 silly resolved        url: 'git://github.com/phonegap/phonegap-cli.git' },
+379 silly resolved     keywords:
+379 silly resolved      [ 'cli',
+379 silly resolved        'cordova',
+379 silly resolved        'phonegap',
+379 silly resolved        'phonegap build',
+379 silly resolved        'phonegap/build' ],
+379 silly resolved     preferGlobal: 'true',
+379 silly resolved     main: './lib/main.js',
+379 silly resolved     bin: { phonegap: './bin/phonegap.js' },
+379 silly resolved     scripts: { test: 'jasmine-node --color spec' },
+379 silly resolved     engineStrict: 'true',
+379 silly resolved     engines: { node: '>=0.10.0' },
+379 silly resolved     dependencies:
+379 silly resolved      { colors: '0.6.0-1',
+379 silly resolved        'connect-phonegap': '0.8.1',
+379 silly resolved        cordova: '3.4.0-0.1.2',
+379 silly resolved        optimist: '0.6.0',
+379 silly resolved        'phonegap-build': '0.8.4',
+379 silly resolved        pluralize: '0.0.4',
+379 silly resolved        prompt: '0.2.11',
+379 silly resolved        'qrcode-terminal': '0.9.4',
+379 silly resolved        semver: '1.1.0',
+379 silly resolved        shelljs: '0.1.4' },
+379 silly resolved     devDependencies: { 'jasmine-node': '1.8.0', chdir: '0.0.x' },
+379 silly resolved     optionalDependencies: {},
+379 silly resolved     contributors: [ [Object], [Object], [Object], [Object] ],
+379 silly resolved     readme: '# PhoneGap CLI [![Build Status][travis-ci-img]][travis-ci-url]\n\n> PhoneGap command-line interface and Node.js library.\n\n\n## Command-line\n\n### Requirements\n\n- [Install node.js](http://nodejs.org/) version `>=0.10.x`\n- [Install ios-sim](https://github.com/phonegap/ios-sim#installation) to deploy apps to the iOS simulator.\n\n### Install\n\n    $ npm install -g phonegap\n\n### Getting Started\n\n    $ phonegap create my-app    # create a PhoneGap project\n    $ cd my-app                 # change to project directory\n    $ phonegap run ios          # build and install the app to iOS\n\n### Usage\n\n    Usage: phonegap [options] [commands]\n\n    Description:\n\n      PhoneGap command-line tool.\n\n    Commands:\n\n      create <path>        create a phonegap project\n      build <platform>     build a specific platform\n      install <platform>   install a specific platform\n      run <platform>       build and install a specific platform\n      local [command]      development on local system\n      remote [command]     development in cloud with phonegap/build\n      platform [command]   update a platform version\n      help [command]       output usage information\n      version              output version number\n\n    Options:\n\n      -V, --verbose        allow verbose output\n      -v, --version        output version number\n      -h, --help           output usage information\n\n    Platforms:\n\n      keyword            | local environment | remote environment\n      -------------------|-------------------|-------------------\n      android            | ✔                 | ✔\n      blackberry10       | ✔                 | ✖\n      ios                | ✔                 | ✔\n      wp8                | ✔                 | ✔\n\n\n    Examples:\n\n      $ phonegap help create\n      $ phonegap help remote build\n      $ phonegap create path/to/my-app\n      $ phonegap remote build android\n\n#### Local Usage\n\n    Usage: phonegap local [command]\n\n    Description:\n\n      Executes the command on the local system.\n\n      This requires that platform SDK is correctly installed.\n\n    Commands:\n\n      build <platform>     build a specific platform\n      install <platform>   install a specific platform\n      run <platform>       build and install a specific platform\n      plugin <command>     add, remove, and list plugins\n\n    Examples:\n\n      $ phonegap local build android\n      $ phonegap local run android\n      $ phonegap local plugin list\n\n#### Remote Usage\n\n    Usage: phonegap remote [command]\n\n    Description:\n\n      Executes the command remotely using the cloud-based PhoneGap/Build service.\n\n    Commands:\n\n      login                login to PhoneGap/Build\n      logout               logout of PhoneGap/Build\n      build <platform>     build a specific platform\n      install <platform>   install a specific platform\n      run <platform>       build and install a specific platform\n\n    Examples:\n\n      $ phonegap remote login\n      $ phonegap remote build android\n      $ phonegap remote run android\n\n## Node Library\n\n### Usage\n\n    var phonegap = require(\'phonegap\');\n\n## FAQ\n\n### phonegap: command not found\n\n#### Problem\n\nThe PhoneGap CLI installs successfully but you do not have a command `phonegap`.\n\n#### Reason\n\nDepending on how `node` and `npm` were installed, your globally installed npm\nmodules may not be in your `PATH`.\n\n#### Solution\n\nAt the bottom of your `npm install -g phonegap` installation log, you will see the following:\n\n    ...\n    /usr/local/share/npm/bin/phonegap -> /usr/local/share/npm/lib/node_modules/phonegap/bin/phonegap.js\n    ...\n\n_(Your path may be slightly different)_\n\nOpen `~/.profile` or `~/.bashrc`, depending on what exists on your system, and add following line:\n\n    export PATH=$PATH:/usr/local/share/npm/bin\n\nOpen a new terminal tab or type the following command:\n\n    $ source ~/.profile\n    or\n    $ source ~/.bashrc\n\nThe command `phonegap` should now be available to you.\n\n### The provided path is not an Android project\n\n#### Problem\n\nYou receive the following error message when building an Android project:\n\n    throw new Error(\'The provided path "\' + project + \'" is not an Android\n\n#### Reason\n\nThe first time that you build for a platform, the framework is downloaded from Apache Cordova.\n\nThe framework is stored locally in your home directory, such as `~/.cordova/lib`.\n\nSometimes the framework is corrupted during the download. It can exist for two\nknow reasons:\n\n1. Your Android SDK environment is not properly configured.\n1. Unknown issue related to Apache\'s servers or the untar operation.\n\n#### Solution\n\nFirst, you must properly configure your Android environment by following\nthe [platform setup guide](http://docs.phonegap.com/en/3.0.0/guide_platforms_android_index.md.html).\n\nNext, you must delete the cached Cordova Android framework (`x.x.x` is your version):\n\n    ~/.cordova/lib/android/cordova/x.x.x\n\nNext, you can try to rebuild the project. Enabling verbose mode is sometimes helpful:\n\n    $ phonegap build android --verbose\n\n## Upgrading Cordova\n\nThere are a few steps that should be taken when upgrading to a new version of the\n[cordova-cli](http://github.com/apache/cordova-cli).\n\n1. Update the `package.json` dependencies version for `cordova`.\n\n        {\n          "dependencies": {\n            "cordova": "3.1.0"\n          }\n        }\n\n1. Update the `package.json` version.\n\n        {\n          "version": "3.1.0-0.15.0"\n        }\n\n1. Run the tests.\n\n        $ npm test\n\n1. Commit stating the version increment.\n\n        $ git commit -am "Version 3.1.0-0.15.0"\n\n1. Tag the version commit.\n\n        $ git tag 3.1.0-0.15.0\n\n1. Update the [PhoneGap Hello World App](https://github.com/phonegap/phonegap-app-hello-world) to match the new version.\n  - See [Update instructions](https://github.com/phonegap/phonegap-app-hello-world#updating-the-application).\n  - In the above example, we would update the app to `3.1.0`.\n1. Manually test that the latest Hello World app is lazy-loaded.\n\n        # Link the phonegap-cli for easier development (only need to do once).\n\n        $ cd phonegap-cli/\n        $ [sudo] npm link .\n\n        # Manually test and verify hello world app is lazy-loaded.\n\n        $ phonegap create my-app\n        [phonegap] missing library phonegap/www/3.1.0\n        [phonegap] downloading https://github.com/phonegap/phonegap-app-hello-world/archive/3.1.0.tar.gz...\n        [phonegap] created project at /Users/mwbrooks/Development/sandbox/my-app\n\n        $ cd my-app/\n        $ phonegap run ios\n\n1. Push the git commit after the Hello World has been updated.\n\n        $ git push phonegap master\n\n1. Publish the npm release.\n\n        $ npm publish\n\n[travis-ci-img]: https://travis-ci.org/phonegap/phonegap-cli.png?branch=master\n[travis-ci-url]: http://travis-ci.org/phonegap/phonegap-cli\n\n',
+379 silly resolved     readmeFilename: 'README.md',
+379 silly resolved     bugs: { url: 'https://github.com/phonegap/phonegap-cli/issues' },
+379 silly resolved     _id: 'phonegap@3.4.0-0.19.8',
+379 silly resolved     dist: { shasum: '9a547f1e4a718f7a52b7804430c72cdcdcb0c05f' },
+379 silly resolved     _from: 'phonegap@',
+379 silly resolved     _resolved: 'https://registry.npmjs.org/phonegap/-/phonegap-3.4.0-0.19.8.tgz' } ]
+380 info install phonegap@3.4.0-0.19.8 into /usr/local/lib
+381 info installOne phonegap@3.4.0-0.19.8
+382 info /usr/local/lib/node_modules/phonegap unbuild
+383 verbose tar unpack /Users/brian.cooney/.npm/phonegap/3.4.0-0.19.8/package.tgz
+384 silly lockFile f38db7ac--local-lib-node-modules-phonegap tar:///usr/local/lib/node_modules/phonegap
+385 verbose lock tar:///usr/local/lib/node_modules/phonegap /Users/brian.cooney/.npm/f38db7ac--local-lib-node-modules-phonegap.lock
+386 silly lockFile 48e47cc4-honegap-3-4-0-0-19-8-package-tgz tar:///Users/brian.cooney/.npm/phonegap/3.4.0-0.19.8/package.tgz
+387 verbose lock tar:///Users/brian.cooney/.npm/phonegap/3.4.0-0.19.8/package.tgz /Users/brian.cooney/.npm/48e47cc4-honegap-3-4-0-0-19-8-package-tgz.lock
+388 silly gunzTarPerm modes [ '755', '644' ]
+389 error Error: EACCES, mkdir '/usr/local/lib/node_modules/phonegap'
+389 error  { [Error: EACCES, mkdir '/usr/local/lib/node_modules/phonegap']
+389 error   errno: 3,
+389 error   code: 'EACCES',
+389 error   path: '/usr/local/lib/node_modules/phonegap',
+389 error   fstream_type: 'Directory',
+389 error   fstream_path: '/usr/local/lib/node_modules/phonegap',
+389 error   fstream_class: 'DirWriter',
+389 error   fstream_stack:
+389 error    [ '/usr/local/lib/node_modules/npm/node_modules/fstream/lib/dir-writer.js:36:23',
+389 error      '/usr/local/lib/node_modules/npm/node_modules/mkdirp/index.js:37:53',
+389 error      'Object.oncomplete (fs.js:107:15)' ] }
+390 error Please try running this command again as root/Administrator.
+391 error System Darwin 12.5.0
+392 error command "node" "/usr/local/bin/npm" "install" "-g" "phonegap"
+393 error cwd /Users/brian.cooney/eclipseWorkspaces/itAvailabilityMobile
+394 error node -v v0.10.26
+395 error npm -v 1.4.3
+396 error path /usr/local/lib/node_modules/phonegap
+397 error fstream_path /usr/local/lib/node_modules/phonegap
+398 error fstream_type Directory
+399 error fstream_class DirWriter
+400 error code EACCES
+401 error errno 3
+402 error stack Error: EACCES, mkdir '/usr/local/lib/node_modules/phonegap'
+403 error fstream_stack /usr/local/lib/node_modules/npm/node_modules/fstream/lib/dir-writer.js:36:23
+403 error fstream_stack /usr/local/lib/node_modules/npm/node_modules/mkdirp/index.js:37:53
+403 error fstream_stack Object.oncomplete (fs.js:107:15)
+404 verbose exit [ 3, true ]

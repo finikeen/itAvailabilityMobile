@@ -1,0 +1,510 @@
+/*
+//----------------------------
+//  Global styles
+//----------------------------
+*/
+.global {
+    color:                  #170505;
+    fillAlphas:             1.00, 1.00; /* last pair are for OVER state */
+    fillColors: 		    #FFFFFF, #DDDDDD, #FFFFFF, #EEEEEE;
+    
+    highlightAlphas:        .5, .25;
+    borderColor:            #939A9D;
+    headerColors:           #A65904, #E68701;
+    themeColor:             #75B1CE;
+    rollOverColor:          #D6E6EE;
+    selectionColor:         #B8D5E4;
+}
+
+/*
+//----------------------------
+// Type selectors
+//----------------------------
+*/
+
+Application
+{
+    backgroundColor:		#EAE6DD;
+}
+
+HRule
+{
+    color:                  #666666;
+}
+
+ButtonBar {
+   buttonHeight: 30;
+   textIndent: 0;
+   letterSpacing: 0;
+   buttonStyleName: "mainButtonBarButtonStyle";
+   firstButtonStyleName: "mainButtonBarFirstButtonStyle";
+   lastButtonStyleName: "mainButtonBarLastButtonStyle";
+   
+}
+
+.mainButtonBarButtonStyle {
+}
+
+.mainButtonBarFirstButtonStyle {
+   cornerRadius: 0;
+}
+
+.mainButtonBarLastButtonStyle {
+   cornerRadius: 0;
+}
+
+/*
+//----------------------------
+// Apply to Panels and Alerts by default
+//----------------------------
+*/
+.windowStatus {
+	color: #FFCC99;
+}
+
+.windowStyles {		/* catalog panel's title text */
+	color: #000000; /*#FFCC99; */
+}
+
+Alert{
+	backgroundColor: #FFFFFF;
+	color:#000000;
+	borderColor: #9E9E9E;
+}
+
+/*
+//----------------------------
+// Named styles
+//----------------------------
+*/
+.glass {
+    borderColor:		    #767473;
+    fillAlphas: 		    .60, .60, .60, .60;
+    fillColors: 		    #888888, #F3F3F3, #9E9E9E, #FCFCFC;
+    highlightAlphas:	    .07, .45;
+}
+
+.glassSlider
+{
+    fillAlphas: 		    .80, .80, .80, .80;
+    fillColors: 		    #F3F3F3, #BBBBBB, #FCFCFC, #CCCCCC;
+}
+
+.listItem
+{
+    paddingLeft:            4;
+    paddingRight:           4;
+    horizontalGap:          5;
+    verticalAlign:          "middle";
+    backgroundColor:        #FFFFFF;
+    backgroundAlpha:        .5;
+    borderStyle:            "outset";
+}
+
+.sectionHeader
+{
+    fontWeight:             "bold";
+    fontSize:               11;
+}
+
+.homeSection
+{
+    cornerRadius:           4;
+    borderStyle:            "solid";
+}
+
+.homeProgramHeader /* in HomeView */
+{
+    fontWeight:             "bold";
+    fontSize:               13;
+    color:                  #BE7E3F;
+}
+
+.highlightContent
+{
+    borderStyle:            "solid";
+    cornerRadius:           4;
+    backgroundColor:        #BE7E3F;
+    alpha:                  0.9;
+}
+
+.instructions
+{
+    alpha:                  .85;
+    color:                  #5C5857;
+}
+
+.controlBar
+{
+    fillAlphas: 			.60, .40;
+    fillColors: 			#8F8879, #BCB29F;
+    highlightAlphas:		.05, .25;
+    cornerRadius: 			3;
+	shadowDistance:         4;
+	paddingLeft:            0;
+	paddingRight:           0;
+	paddingTop:             0;
+	paddingBottom:          0;
+	horizontalGap:          0;
+    sinclairLogo:           "assets/logo.png";
+}
+
+.buttonBar
+{
+    cornerRadius:           0;
+    buttonStyleName:        "buttonBarNav";
+    themeColor:             #A65904;
+}
+
+.buttonBarNav
+{
+    cornerRadius:           0;
+    fillColors:             #8F8879, #BCB29F, #A65904, #E68701;
+    fillAlphas:             1, 1;
+    highlightAlphas:        .5, .25;
+    fontWeight:             "normal";
+    selectedOverSkin:       ClassReference("styles.ButtonBarButtonSkin");
+    selectedUpSkin:         ClassReference("styles.ButtonBarButtonSkin");
+    overSkin:               ClassReference("styles.ButtonBarButtonSkin");
+}
+
+.catalogTitleButtonSelected
+{
+    color:                  #FFFFFF;
+    fontWeight:             "bold";
+}
+
+.catalogTitleButtonDeselected
+{
+    color:                  #222222;
+    fontWeight:             "bold";
+}
+
+.catalogTitleButtonHighlighted
+{
+    color:                  #FFCC99;
+    fontWeight:             "bold";
+}
+
+DataGrid {
+   headerColors: #cccccc, #D6E6EE;
+   verticalGridLineColor: #cccccc;
+   headerStyleName: "dgHeaderStyle";
+}
+
+RowColorDataGrid {
+   headerColors: #cccccc,#D6E6EE; /* 999999 */
+   verticalGridLineColor: #cccccc;
+   headerStyleName: "dgHeaderStyle";
+   fontSize:9px;
+}
+
+ExtendedAdvancedRowColorDataGrid {
+   headerColors: #cccccc,#D6E6EE; /* 999999 */
+   verticalGridLineColor: #cccccc;
+   headerStyleName: "dgHeaderStyle";
+   filterBackgroundColor: #cccccc;
+   fontSize:9px;
+}
+
+.dashboardGrid
+{
+	headerColors: #cccccc, #D6E6EE;
+}
+
+.detailsGrid
+{
+	headerColors: #cccccc, #D6E6EE; /* #B6DBF2 Light Blue*/
+    backgroundAlpha: 0;
+    headerStyleName: "detailsGridHeaderStyle";
+}
+
+.detailsGridHeaderStyle {
+   fontWeight: bold;
+   fontStyle: normal;
+   textDecoration: none;
+   color: #000000;
+   fontSize: 9px;;
+}
+
+
+.dgHeaderStyle {
+   fontWeight: bold;
+   fontStyle: normal;
+   textDecoration: none;
+   color: #333333;
+   fontSize: 9px;;
+}
+
+Panel{
+	paddingLeft:            0;
+	paddingRight:           0;
+	paddingTop:             0;
+	paddingBottom:          0;		
+}
+
+VBox{
+	paddingLeft:            0;
+	paddingRight:           0;
+	paddingTop:             0;
+	paddingBottom:          0;	
+}
+
+HBox{
+	paddingLeft:            0;
+	paddingRight:           0;
+	paddingTop:             0;
+	paddingBottom:          0;	
+}
+
+DividedBox{
+	paddingLeft:            0;
+	paddingRight:           0;
+	paddingTop:             0;
+	paddingBottom:          0;	
+}
+
+Canvas{
+	paddingLeft:            0;
+	paddingRight:           0;
+	paddingTop:             0;
+	paddingBottom:          0;	
+}
+
+/*
+Accordion {
+    paddingRight:0;
+    paddingLeft:0;
+    paddingTop:0;
+    paddingBottom:0;
+    backgroundAlpha:.5;
+    borderStyle: none;
+    headerHeight: 20;
+    headerStyleName: "myaccordionHeader";
+}
+
+.myaccordionHeader {
+   selectedFillColors: #006699, #0066cc;
+   fontWeight: bold;
+}
+*/
+
+/* Main Dashboard Panel Styles */
+.dashboardPanel
+{
+    headerHeight: 			20;
+    highlightAlphas:        .5, .5;
+    /* headerColors: #006699, #0066cc; */
+   /*  footerColors: #006699, #0066cc; */
+   headerColors:           #A65904, #A65904; /* orange : #A65904, #E68701; */
+   footerColors: 			#A65904, #A65904; /* orange : #A65904, #E68701; */
+    borderStyle: solid;
+    borderAlpha:            1;
+    borderColor: 			#EFEFEF;
+    backgroundColor: 		#FFFFFF;
+   	roundedBottomCorners: 	false;
+    top:					0;
+    right:					0;
+    left:					0;
+    bottom:					0;
+    paddingRight:0;
+    paddingLeft:0;
+    paddingTop:0;
+    paddingBottom:0;
+    borderThickness: 0;
+    borderThicknessLeft: 0;
+    borderThicknessTop: 0;
+    borderThicknessBottom: 0;
+    borderThicknessRight: 0;
+    dropShadowEnabled: true;
+    titleStyleName: 		"dashboardPanelTitle";
+}
+
+.dashboardPanelTitle {
+   color: #ffffff;
+   fontWeight: bold;
+}
+
+
+.colorPanel
+{
+    headerHeight: 			25;
+    borderStyle:            "solid";
+    borderThickness:        0;
+    backgroundColor:		#BCB29F;
+    backgroundAlpha:		0.4;
+    color: 					#170505;
+    cornerRadius:           4;
+    dropShadowEnabled:      true;
+    paddingTop:				10;
+    paddingLeft:			10;
+    paddingRight:			10;
+    paddingBottom:			10;
+    horizontalGap:			10;
+}
+
+
+.floatingPanel
+{
+    headerHeight: 			25;
+    highlightAlphas:        .5, .25;
+    headerColors:           #A65904, #A65904; /* #A65904, #E68701; */
+    footerColors: 		    #A65904, #A65904;
+    borderAlpha:            1;
+    borderColor:            #FFFFFF;
+   	roundedBottomCorners: 	true;
+    top:					5;
+    right:					10;
+	titleStyleName: 		"floatingPanelTitle";
+}
+
+.floatingPanelTitle {
+   color: #ffffff;
+   fontWeight: bold;
+}
+
+/* Internal Tools Admin Panel Styles */
+.contentPanel
+{
+    headerHeight: 			25;
+    highlightAlphas:        .5, .25;
+    headerColors:           #A65904, #E68701; /* #A65904, #E68701; */
+    footerColors:           #CCCCCC, #CCCCCC;
+    borderAlpha:            1;
+    borderColor: 			#EFEFEF;
+    backgroundColor: 		#EFEFEF;
+    paddingRight:0;
+    paddingLeft:0;
+    paddingTop:0;
+    paddingBottom:0;
+    borderThickness: 0;
+    borderThicknessLeft: 1;
+    borderThicknessTop: 1;
+    borderThicknessBottom: 1;
+    borderThicknessRight: 1;
+   	roundedBottomCorners: 	true;
+	titleStyleName: 		"contentPanelTitle";
+}
+
+.contentPanelTitle {
+   color: #ffffff;
+   fontWeight: bold;
+}
+
+.detailPanel
+{
+   headerHeight: 			25;
+   borderColor: 			#EFEFEF;
+   backgroundColor: 		#EFEFEF;
+   borderAlpha: 1;
+   borderThicknessLeft: 0;
+   borderThicknessTop: 0;
+   borderThicknessBottom: 0;
+   borderThicknessRight: 0;
+   paddingRight:5;
+   paddingLeft:5;
+   paddingTop:5;
+   paddingBottom:5;
+   roundedBottomCorners: true;
+   backgroundAlpha: 1;
+   headerColors: #55231a, #55231a;
+   footerColors: #55231a, #55231a;
+   titleStyleName: "detailPanelTitle";
+}
+
+.detailPanelTitle {
+   color: 				   #FFFFFF;
+   fontWeight:             "bold";
+}
+
+.detailBox{
+	paddingLeft:            0;
+	paddingRight:           0;
+	paddingTop:             28;
+	paddingBottom:          0;
+	backgroundColor:  #EFEFEF;  /* #E3F6FF; light blue */
+}
+
+TabNavigator {
+   tabHeight: 20;
+   horizontalAlign: left;
+   textIndent: 0;
+   borderStyle: inset;
+   borderThickness: 0;
+   dropShadowEnabled: true;
+   paddingRight:5;
+   paddingLeft:5;
+   paddingTop:7;
+   paddingBottom:5;
+   backgroundColor: #E7E7E7;
+   tabStyleName: "dbTabStyles";
+   firstTabStyleName: "dbTabStyles";
+   lastTabStyleName: "dbTabStyles";
+   selectedTabTextStyleName: "dbSelectedTabStyle";
+}
+
+.dashboardTabs {
+   tabHeight: 25;
+   horizontalAlign: left;
+   textIndent: 0;
+   borderStyle: inset;
+   borderThickness: 0;
+   dropShadowEnabled: true;
+   paddingRight:10;
+   paddingLeft:10;
+   paddingTop:10;
+   paddingBottom:5;
+   tabStyleName: "dbTabStyles";
+   firstTabStyleName: "dbTabStyles";
+   lastTabStyleName: "dbTabStyles";
+   selectedTabTextStyleName: "dbSelectedTabStyle";
+}
+
+.dbTabStyles {
+   fillColors: #999999, #999999;
+   backgroundColor: #0099cc;
+   fontSize: 10;
+   textRollOverColor: #ffffff;
+}
+
+.dbSelectedTabStyle {
+   color: #ffffff;
+}
+
+LinkButton {
+   fontSize: 10;
+   fontWeight: bold;
+   color: #a93801;
+   textRollOverColor: #a93801;
+}
+
+ComboBox{
+	fillAlphas:1,1;	
+}
+
+.gridFooterText {
+   color: 				  #838383;
+}
+
+.instructionsText {
+   color: 				  #838383;
+}
+
+FormHeading{
+	fontSize:10px;	
+}
+
+.ExtendedDividerBoxButtonV{
+    buttonWidth:            30;
+    barBorderColor:            #c6a2a2;
+    barFillColors:             #906d6d,#c6a2a2;
+    dividerThickness:         8;
+    dividerSkin:            Embed(source="/assets/images/NavGrip.png"); 
+    downSkin:                Embed(source="/assets/images/SkinSet001.swf#V_Slider_Button_1");
+    overSkin:                Embed(source="/assets/images/SkinSet001.swf#V_Slider_Button_2");
+    upSkin:                    Embed(source="/assets/images/SkinSet001.swf#V_Slider_Button_2");
+    selectedDownSkin:        Embed(source="/assets/images/SkinSet001.swf#V_Slider_Button_1");
+    selectedOverSkin:        Embed(source="/assets/images/SkinSet001.swf#V_Slider_Button_2");
+    selectedUpSkin:            Embed(source="/assets/images/SkinSet001.swf#V_Slider_Button_2");
+    cornerRadius:            0;
+}

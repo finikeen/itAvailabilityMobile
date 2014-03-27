@@ -1,4 +1,11 @@
 /.settings
+/src/.sencha_backup
+/src/upgrade-temp
+/src/build/archive
+/src/build/production
+/src/build/temp
+/src/build/testing
+/src/packages/deft/docs
 settings.xml
 .project
 .DS_Store
